@@ -28,19 +28,19 @@ const PDN = {
 };
 
 const REALMS = {
-  "nyc1": "US East",
   "ams1": "Europe West",
+  "ams2": "Europe West",
+  "ams3": "Europe East",
+  "blr1": "Asia",
+  "fra1": "Europe West",
+  "lon1": "Europe West",
+  "nyc1": "US East",
+  "nyc2": "US East",
+  "nyc3": "US East",
   "sfo1": "US West",
   "sfo2": "US West",
-  "nyc2": "US East",
-  "ams2": "Europe West",
   "sgp1": "Asia",
-  "lon1": "Europe West",
-  "nyc3": "US East",
-  "ams3": "Europe East",
-  "fra1": "Europe West",
   "tor1": "Canada",
-  "blr1": "Asia",
 }
 
 require('dotenv').config();
