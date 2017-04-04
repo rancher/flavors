@@ -1,0 +1,20 @@
+provider: digitalocean
+driver_options:
+    digitalocean-image: ubuntu-16-04-x64
+    digitalocean-ipv6: false
+    digitalocean-private-networking: false
+    digitalocean-backups: false
+ui_options:
+    id: digitalocean-nyc1-m-224gb
+    display_name: ""
+    memory: 229376
+    storage: 500
+    zone: nyc1
+    price_per_hour: 2.5
+    price_per_month: 1680
+    variable_fees: false
+    cpu_rating: 3
+    disk_rating: 4
+    transfer: 10
+    realm: null
+    api_key_support: managed

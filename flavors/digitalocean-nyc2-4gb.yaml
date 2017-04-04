@@ -1,0 +1,20 @@
+provider: digitalocean
+driver_options:
+    digitalocean-image: ubuntu-16-04-x64
+    digitalocean-ipv6: false
+    digitalocean-private-networking: false
+    digitalocean-backups: false
+ui_options:
+    id: digitalocean-nyc2-4gb
+    display_name: ""
+    memory: 4096
+    storage: 60
+    zone: nyc2
+    price_per_hour: 0.05952
+    price_per_month: 40
+    variable_fees: false
+    cpu_rating: 4
+    disk_rating: 2
+    transfer: 4
+    realm: null
+    api_key_support: managed
