@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-ams2-64gb
-    display_name: ""
+    display_name: 'Digital Ocean Colossal (ams2)'
     memory: 65536
     storage: 640
     zone: ams2
@@ -16,5 +16,5 @@ ui_options:
     cpu_rating: 1
     disk_rating: 3
     transfer: 9
-    realm: null
+    realm: 'EU East'
     api_key_support: managed

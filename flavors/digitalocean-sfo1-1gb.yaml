@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-sfo1-1gb
-    display_name: ""
+    display_name: 'Digital Ocean Mini (sfo1)'
     memory: 1024
     storage: 30
     zone: sfo1
     price_per_hour: 0.01488
     price_per_month: 10
     variable_fees: false
-    cpu_rating: 3
+    cpu_rating: 5
     disk_rating: 3
     transfer: 2
-    realm: null
+    realm: 'US West'
     api_key_support: managed

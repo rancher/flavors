@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-sgp1-2gb
-    display_name: ""
+    display_name: 'Digital Ocean Small (sgp1)'
     memory: 2048
     storage: 40
     zone: sgp1
     price_per_hour: 0.02976
     price_per_month: 20
     variable_fees: false
-    cpu_rating: 5
-    disk_rating: 4
+    cpu_rating: 2
+    disk_rating: 1
     transfer: 3
-    realm: null
+    realm: Asia
     api_key_support: managed

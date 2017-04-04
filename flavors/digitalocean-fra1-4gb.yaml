@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-fra1-4gb
-    display_name: ""
+    display_name: 'Digital Ocean Medium (fra1)'
     memory: 4096
     storage: 60
     zone: fra1
     price_per_hour: 0.05952
     price_per_month: 40
     variable_fees: false
-    cpu_rating: 3
-    disk_rating: 4
+    cpu_rating: 1
+    disk_rating: 3
     transfer: 4
-    realm: null
+    realm: 'EU West'
     api_key_support: managed

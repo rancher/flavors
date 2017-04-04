@@ -6,5 +6,13 @@
   "dependencies": {
     "digitalocean": "^0.9.1",
     "yamljs": "^0.2.9"
+  },
+  "scripts": {
+    "buildDo": "node do.js",
+    "buildAws": "node aws.js",
+    "build": "run-p buildDo buildAws"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.2"
   }
 }

@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-tor1-4gb
-    display_name: ""
+    display_name: 'Digital Ocean Medium (tor1)'
     memory: 4096
     storage: 60
     zone: tor1
@@ -16,5 +16,5 @@ ui_options:
     cpu_rating: 3
     disk_rating: 4
     transfer: 4
-    realm: null
+    realm: 'CAN East'
     api_key_support: managed

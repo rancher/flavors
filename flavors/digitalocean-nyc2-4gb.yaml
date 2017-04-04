@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-nyc2-4gb
-    display_name: ""
+    display_name: 'Digital Ocean Medium (nyc2)'
     memory: 4096
     storage: 60
     zone: nyc2
     price_per_hour: 0.05952
     price_per_month: 40
     variable_fees: false
-    cpu_rating: 4
+    cpu_rating: 2
     disk_rating: 2
     transfer: 4
-    realm: null
+    realm: 'US East'
     api_key_support: managed

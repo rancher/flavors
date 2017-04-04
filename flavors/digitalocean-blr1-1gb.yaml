@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-blr1-1gb
-    display_name: ""
+    display_name: 'Digital Ocean Mini (blr1)'
     memory: 1024
     storage: 30
     zone: blr1
     price_per_hour: 0.01488
     price_per_month: 10
     variable_fees: false
-    cpu_rating: 5
+    cpu_rating: 1
     disk_rating: 5
     transfer: 2
-    realm: null
+    realm: Asia
     api_key_support: managed

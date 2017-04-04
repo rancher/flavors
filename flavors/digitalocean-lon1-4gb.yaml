@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-lon1-4gb
-    display_name: ""
+    display_name: 'Digital Ocean Medium (lon1)'
     memory: 4096
     storage: 60
     zone: lon1
@@ -14,7 +14,7 @@ ui_options:
     price_per_month: 40
     variable_fees: false
     cpu_rating: 5
-    disk_rating: 5
+    disk_rating: 2
     transfer: 4
-    realm: null
+    realm: 'EU West'
     api_key_support: managed

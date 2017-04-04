@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-sfo2-32gb
-    display_name: ""
+    display_name: 'Digital Ocean Mega (sfo2)'
     memory: 32768
     storage: 320
     zone: sfo2
     price_per_hour: 0.47619
     price_per_month: 320
     variable_fees: false
-    cpu_rating: 3
+    cpu_rating: 5
     disk_rating: 3
     transfer: 7
-    realm: null
+    realm: 'US West'
     api_key_support: managed

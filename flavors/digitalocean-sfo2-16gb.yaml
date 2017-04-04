@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-sfo2-16gb
-    display_name: ""
+    display_name: 'Digital Ocean Extra Large (sfo2)'
     memory: 16384
     storage: 160
     zone: sfo2
     price_per_hour: 0.2381
     price_per_month: 160
     variable_fees: false
-    cpu_rating: 1
-    disk_rating: 1
+    cpu_rating: 5
+    disk_rating: 3
     transfer: 6
-    realm: null
+    realm: 'US West'
     api_key_support: managed

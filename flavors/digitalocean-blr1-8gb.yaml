@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-blr1-8gb
-    display_name: ""
+    display_name: 'Digital Ocean Large (blr1)'
     memory: 8192
     storage: 80
     zone: blr1
     price_per_hour: 0.11905
     price_per_month: 80
     variable_fees: false
-    cpu_rating: 2
+    cpu_rating: 5
     disk_rating: 3
     transfer: 5
-    realm: null
+    realm: Asia
     api_key_support: managed

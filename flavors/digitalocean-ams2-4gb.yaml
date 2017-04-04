@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-ams2-4gb
-    display_name: ""
+    display_name: 'Digital Ocean Medium (ams2)'
     memory: 4096
     storage: 60
     zone: ams2
@@ -14,7 +14,7 @@ ui_options:
     price_per_month: 40
     variable_fees: false
     cpu_rating: 3
-    disk_rating: 4
+    disk_rating: 1
     transfer: 4
-    realm: null
+    realm: 'EU East'
     api_key_support: managed

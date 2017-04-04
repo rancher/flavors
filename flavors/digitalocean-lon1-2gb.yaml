@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-lon1-2gb
-    display_name: ""
+    display_name: 'Digital Ocean Small (lon1)'
     memory: 2048
     storage: 40
     zone: lon1
@@ -16,5 +16,5 @@ ui_options:
     cpu_rating: 2
     disk_rating: 4
     transfer: 3
-    realm: null
+    realm: 'EU West'
     api_key_support: managed

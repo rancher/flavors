@@ -1,0 +1,14 @@
+{
+  "amazonec2Config":{
+    "accessKey":"AKIAJVPMRSZJTTWR7LEA", // host temp 
+    "secretKey": "",
+    "instanceType":"t2.medium",
+    "region":"us-west-2",
+    "rootSize": 40,
+    "securityGroup":"maybe", // provider and maybe?
+    "sshUser":"ubuntu", // provider file
+    "subnetId":null, // maybe
+    "vpcId":"vpc-16885b73", // maybe
+    "zone":"a", // hard coded in provider
+  },
+}

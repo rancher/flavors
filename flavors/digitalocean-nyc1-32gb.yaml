@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-nyc1-32gb
-    display_name: ""
+    display_name: 'Digital Ocean Mega (nyc1)'
     memory: 32768
     storage: 320
     zone: nyc1
     price_per_hour: 0.47619
     price_per_month: 320
     variable_fees: false
-    cpu_rating: 5
-    disk_rating: 1
+    cpu_rating: 4
+    disk_rating: 4
     transfer: 7
-    realm: null
+    realm: 'US East'
     api_key_support: managed

@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-ams3-2gb
-    display_name: ""
+    display_name: 'Digital Ocean Small (ams3)'
     memory: 2048
     storage: 40
     zone: ams3
     price_per_hour: 0.02976
     price_per_month: 20
     variable_fees: false
-    cpu_rating: 5
-    disk_rating: 4
+    cpu_rating: 4
+    disk_rating: 2
     transfer: 3
-    realm: null
+    realm: 'EU East'
     api_key_support: managed

@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-nyc3-48gb
-    display_name: ""
+    display_name: 'Digital Ocean Gigantic (nyc3)'
     memory: 49152
     storage: 480
     zone: nyc3
     price_per_hour: 0.71429
     price_per_month: 480
     variable_fees: false
-    cpu_rating: 5
-    disk_rating: 2
+    cpu_rating: 2
+    disk_rating: 4
     transfer: 8
-    realm: null
+    realm: 'US East'
     api_key_support: managed

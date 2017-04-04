@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-nyc3-8gb
-    display_name: ""
+    display_name: 'Digital Ocean Large (nyc3)'
     memory: 8192
     storage: 80
     zone: nyc3
@@ -14,7 +14,7 @@ ui_options:
     price_per_month: 80
     variable_fees: false
     cpu_rating: 3
-    disk_rating: 1
+    disk_rating: 3
     transfer: 5
-    realm: null
+    realm: 'US East'
     api_key_support: managed

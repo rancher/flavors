@@ -6,15 +6,15 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-blr1-4gb
-    display_name: ""
+    display_name: 'Digital Ocean Medium (blr1)'
     memory: 4096
     storage: 60
     zone: blr1
     price_per_hour: 0.05952
     price_per_month: 40
     variable_fees: false
-    cpu_rating: 4
-    disk_rating: 1
+    cpu_rating: 2
+    disk_rating: 5
     transfer: 4
-    realm: null
+    realm: Asia
     api_key_support: managed

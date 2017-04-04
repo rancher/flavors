@@ -6,7 +6,7 @@ driver_options:
     digitalocean-backups: false
 ui_options:
     id: digitalocean-fra1-48gb
-    display_name: ""
+    display_name: 'Digital Ocean Gigantic (fra1)'
     memory: 49152
     storage: 480
     zone: fra1
@@ -14,7 +14,7 @@ ui_options:
     price_per_month: 480
     variable_fees: false
     cpu_rating: 4
-    disk_rating: 4
+    disk_rating: 5
     transfer: 8
-    realm: null
+    realm: 'EU West'
     api_key_support: managed
