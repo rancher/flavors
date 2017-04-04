@@ -8,7 +8,7 @@
 /node_modules
 
 # misc
-/flavors/*
+/flavors/*.yaml
 npm-debug.log
 testem.log
 .DS_Store
