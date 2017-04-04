@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.212'
     price_per_month: 152.64
     variable_fees: true
-    cpu_rating: 2
-    disk_rating: 5
+    cpu_rating: 1
+    disk_rating: 3
     transfer: 0
-    realm: null
+    realm: 'EU - London (eu-west-2)'
     api_key_support: byokey

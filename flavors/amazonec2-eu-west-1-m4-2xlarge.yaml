@@ -13,7 +13,7 @@ ui_options:
     price_per_month: 342
     variable_fees: true
     cpu_rating: 2
-    disk_rating: 4
+    disk_rating: 1
     transfer: 1000
-    realm: null
+    realm: 'EU - Ireland (eu-west-1)'
     api_key_support: byokey

@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.025'
     price_per_month: 18
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 1
+    cpu_rating: 2
+    disk_rating: 3
     transfer: 0
-    realm: null
+    realm: 'EU - Ireland (eu-west-1)'
     api_key_support: byokey

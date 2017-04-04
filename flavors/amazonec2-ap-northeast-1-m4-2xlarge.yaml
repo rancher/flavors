@@ -13,7 +13,7 @@ ui_options:
     price_per_month: 400.32000000000005
     variable_fees: true
     cpu_rating: 2
-    disk_rating: 1
+    disk_rating: 4
     transfer: 1000
-    realm: null
+    realm: 'Asia Pacific - Tokyo (ap-northeast-1)'
     api_key_support: byokey

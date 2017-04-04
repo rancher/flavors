@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.256'
     price_per_month: 184.32
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 1
+    cpu_rating: 4
+    disk_rating: 2
     transfer: 0
-    realm: null
+    realm: 'Asia Pacific - Sydney (ap-southeast-2)'
     api_key_support: byokey

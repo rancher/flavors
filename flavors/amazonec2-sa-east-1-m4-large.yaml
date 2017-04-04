@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.171'
     price_per_month: 123.12
     variable_fees: true
-    cpu_rating: 1
+    cpu_rating: 2
     disk_rating: 5
     transfer: 450
-    realm: null
+    realm: 'South America - São Paulo (sa-east-1)'
     api_key_support: byokey

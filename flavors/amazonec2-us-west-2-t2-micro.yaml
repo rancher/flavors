@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.012'
     price_per_month: 8.64
     variable_fees: true
-    cpu_rating: 4
+    cpu_rating: 3
     disk_rating: 3
     transfer: 0
-    realm: null
+    realm: 'US West - Oregon (us-west-1)'
     api_key_support: byokey

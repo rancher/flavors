@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.031'
     price_per_month: 22.32
     variable_fees: true
-    cpu_rating: 4
+    cpu_rating: 3
     disk_rating: 2
     transfer: 0
-    realm: null
+    realm: 'US West - N. California (us-west-1)'
     api_key_support: byokey

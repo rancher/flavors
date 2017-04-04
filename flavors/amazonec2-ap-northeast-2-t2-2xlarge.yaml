@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.512'
     price_per_month: 368.64
     variable_fees: true
-    cpu_rating: 1
-    disk_rating: 2
+    cpu_rating: 5
+    disk_rating: 1
     transfer: 0
-    realm: null
+    realm: 'Asia Pacific - Seoul (ap-northeast-2)'
     api_key_support: byokey

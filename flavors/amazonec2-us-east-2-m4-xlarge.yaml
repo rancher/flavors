@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: '0.215'
     price_per_month: 154.8
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 1
+    cpu_rating: 5
+    disk_rating: 3
     transfer: 750
-    realm: null
+    realm: 'US East - Ohio (us-east-2)'
     api_key_support: byokey
