@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-eu-central-1-m4-4xlarge
-    display_name: 'M4 Quadruple Extra Large (eu-central-1)'
+    display_name: 'm4.4xlarge (eu-central-1)'
     memory: 64
     storage: 40
     zone: eu-central-1
-    price_per_hour: '1.026'
+    price_per_hour: 1.026
     price_per_month: 738.72
     variable_fees: true
     cpu_rating: 1
-    disk_rating: 3
+    disk_rating: 2
     transfer: 2000
     realm: 'EU - Frankfurt (eu-central-1)'
     api_key_support: byokey

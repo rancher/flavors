@@ -5,14 +5,14 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-eu-west-2-t2-medium
-    display_name: 'T2 Medium (eu-west-2)'
+    display_name: 't2.medium (eu-west-2)'
     memory: 4
     storage: 40
     zone: eu-west-2
-    price_per_hour: '0.052'
+    price_per_hour: 0.052
     price_per_month: 37.44
     variable_fees: true
-    cpu_rating: 5
+    cpu_rating: 3
     disk_rating: 5
     transfer: 0
     realm: 'EU - London (eu-west-2)'

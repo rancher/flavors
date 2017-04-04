@@ -5,11 +5,11 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-eu-west-2-t2-large
-    display_name: 'T2 Large (eu-west-2)'
+    display_name: 't2.large (eu-west-2)'
     memory: 8
     storage: 40
     zone: eu-west-2
-    price_per_hour: '0.106'
+    price_per_hour: 0.106
     price_per_month: 76.32
     variable_fees: true
     cpu_rating: 3

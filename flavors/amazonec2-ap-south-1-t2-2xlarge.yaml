@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-south-1-t2-2xlarge
-    display_name: 'T2 Double Extra Large (ap-south-1)'
+    display_name: 't2.2xlarge (ap-south-1)'
     memory: 32
     storage: 40
     zone: ap-south-1
-    price_per_hour: '0.476'
+    price_per_hour: 0.476
     price_per_month: 342.71999999999997
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 5
+    cpu_rating: 4
+    disk_rating: 3
     transfer: 0
     realm: 'Asia Pacific - Mumbai (ap-south-1)'
     api_key_support: byokey

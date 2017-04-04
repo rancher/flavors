@@ -5,14 +5,14 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-east-1-t2-small
-    display_name: 'T2 Small (us-east-1)'
+    display_name: 't2.small (us-east-1)'
     memory: 2
     storage: 40
     zone: us-east-1
-    price_per_hour: '0.023'
+    price_per_hour: 0.023
     price_per_month: 16.56
     variable_fees: true
-    cpu_rating: 3
+    cpu_rating: 5
     disk_rating: 4
     transfer: 0
     realm: 'US East - N. Virginia (us-east-1)'

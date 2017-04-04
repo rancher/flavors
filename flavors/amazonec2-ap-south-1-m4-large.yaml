@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-south-1-m4-large
-    display_name: 'M4 Large (ap-south-1)'
+    display_name: 'm4.large (ap-south-1)'
     memory: 8
     storage: 40
     zone: ap-south-1
-    price_per_hour: '0.132'
+    price_per_hour: 0.132
     price_per_month: 95.04
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 1
+    cpu_rating: 2
+    disk_rating: 3
     transfer: 450
     realm: 'Asia Pacific - Mumbai (ap-south-1)'
     api_key_support: byokey

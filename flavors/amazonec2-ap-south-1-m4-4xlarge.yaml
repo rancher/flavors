@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-south-1-m4-4xlarge
-    display_name: 'M4 Quadruple Extra Large (ap-south-1)'
+    display_name: 'm4.4xlarge (ap-south-1)'
     memory: 64
     storage: 40
     zone: ap-south-1
-    price_per_hour: '1.053'
+    price_per_hour: 1.053
     price_per_month: 758.16
     variable_fees: true
     cpu_rating: 3
-    disk_rating: 1
+    disk_rating: 5
     transfer: 2000
     realm: 'Asia Pacific - Mumbai (ap-south-1)'
     api_key_support: byokey

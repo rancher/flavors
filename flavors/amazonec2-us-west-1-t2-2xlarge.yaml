@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-west-1-t2-2xlarge
-    display_name: 'T2 Double Extra Large (us-west-1)'
+    display_name: 't2.2xlarge (us-west-1)'
     memory: 32
     storage: 40
     zone: us-west-1
-    price_per_hour: '0.488'
+    price_per_hour: 0.488
     price_per_month: 351.36
     variable_fees: true
     cpu_rating: 3
-    disk_rating: 3
+    disk_rating: 4
     transfer: 0
     realm: 'US West - N. California (us-west-1)'
     api_key_support: byokey

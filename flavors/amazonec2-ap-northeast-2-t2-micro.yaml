@@ -5,14 +5,14 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-northeast-2-t2-micro
-    display_name: 'T2 Micro (ap-northeast-2)'
+    display_name: 't2.micro (ap-northeast-2)'
     memory: 1
     storage: 40
     zone: ap-northeast-2
-    price_per_hour: '0.016'
+    price_per_hour: 0.016
     price_per_month: 11.52
     variable_fees: true
-    cpu_rating: 2
+    cpu_rating: 4
     disk_rating: 3
     transfer: 0
     realm: 'Asia Pacific - Seoul (ap-northeast-2)'

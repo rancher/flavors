@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-eu-central-1-t2-small
-    display_name: 'T2 Small (eu-central-1)'
+    display_name: 't2.small (eu-central-1)'
     memory: 2
     storage: 40
     zone: eu-central-1
-    price_per_hour: '0.027'
+    price_per_hour: 0.027
     price_per_month: 19.44
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 1
+    cpu_rating: 4
+    disk_rating: 3
     transfer: 0
     realm: 'EU - Frankfurt (eu-central-1)'
     api_key_support: byokey

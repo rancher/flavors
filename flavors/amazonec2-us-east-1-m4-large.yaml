@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-east-1-m4-large
-    display_name: 'M4 Large (us-east-1)'
+    display_name: 'm4.large (us-east-1)'
     memory: 8
     storage: 40
     zone: us-east-1
-    price_per_hour: '0.108'
+    price_per_hour: 0.108
     price_per_month: 77.76
     variable_fees: true
     cpu_rating: 1
-    disk_rating: 4
+    disk_rating: 1
     transfer: 450
     realm: 'US East - N. Virginia (us-east-1)'
     api_key_support: byokey

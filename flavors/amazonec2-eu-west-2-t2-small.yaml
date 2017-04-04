@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-eu-west-2-t2-small
-    display_name: 'T2 Small (eu-west-2)'
+    display_name: 't2.small (eu-west-2)'
     memory: 2
     storage: 40
     zone: eu-west-2
-    price_per_hour: '0.026'
+    price_per_hour: 0.026
     price_per_month: 18.72
     variable_fees: true
-    cpu_rating: 1
-    disk_rating: 5
+    cpu_rating: 5
+    disk_rating: 2
     transfer: 0
     realm: 'EU - London (eu-west-2)'
     api_key_support: byokey

@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-gov-west-1-t2-large
-    display_name: 'T2 Large (us-gov-west-1)'
+    display_name: 't2.large (us-gov-west-1)'
     memory: 8
     storage: 40
     zone: us-gov-west-1
-    price_per_hour: '0.112'
+    price_per_hour: 0.112
     price_per_month: 80.64
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 1
+    cpu_rating: 1
+    disk_rating: 3
     transfer: 0
     realm: 'US GOV''t (us-gov-west-1)'
     api_key_support: byokey

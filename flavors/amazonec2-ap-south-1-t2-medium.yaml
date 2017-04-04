@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-south-1-t2-medium
-    display_name: 'T2 Medium (ap-south-1)'
+    display_name: 't2.medium (ap-south-1)'
     memory: 4
     storage: 40
     zone: ap-south-1
-    price_per_hour: '0.059'
+    price_per_hour: 0.059
     price_per_month: 42.48
     variable_fees: true
-    cpu_rating: 2
-    disk_rating: 4
+    cpu_rating: 1
+    disk_rating: 1
     transfer: 0
     realm: 'Asia Pacific - Mumbai (ap-south-1)'
     api_key_support: byokey

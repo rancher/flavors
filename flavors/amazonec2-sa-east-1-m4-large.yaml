@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-sa-east-1-m4-large
-    display_name: 'M4 Large (sa-east-1)'
+    display_name: 'm4.large (sa-east-1)'
     memory: 8
     storage: 40
     zone: sa-east-1
-    price_per_hour: '0.171'
+    price_per_hour: 0.171
     price_per_month: 123.12
     variable_fees: true
     cpu_rating: 2
-    disk_rating: 5
+    disk_rating: 2
     transfer: 450
     realm: 'South America - São Paulo (sa-east-1)'
     api_key_support: byokey

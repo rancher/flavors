@@ -5,11 +5,11 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-northeast-2-t2-2xlarge
-    display_name: 'T2 Double Extra Large (ap-northeast-2)'
+    display_name: 't2.2xlarge (ap-northeast-2)'
     memory: 32
     storage: 40
     zone: ap-northeast-2
-    price_per_hour: '0.512'
+    price_per_hour: 0.512
     price_per_month: 368.64
     variable_fees: true
     cpu_rating: 5

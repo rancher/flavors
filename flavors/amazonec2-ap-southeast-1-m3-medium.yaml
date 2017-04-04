@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-southeast-1-m3-medium
-    display_name: 'M3 General Purpose Medium (ap-southeast-1)'
+    display_name: 'm3.medium (ap-southeast-1)'
     memory: 3.75
     storage: 40
     zone: ap-southeast-1
-    price_per_hour: '0.098'
+    price_per_hour: 0.098
     price_per_month: 70.56
     variable_fees: true
-    cpu_rating: 2
-    disk_rating: 3
+    cpu_rating: 1
+    disk_rating: 1
     transfer: 0
     realm: 'Asia Pacific - Singapore (ap-southeast-1)'
     api_key_support: byokey

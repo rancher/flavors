@@ -5,11 +5,11 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-west-2-m4-large
-    display_name: 'M4 Large (us-west-2)'
+    display_name: 'm4.large (us-west-2)'
     memory: 8
     storage: 40
     zone: us-west-2
-    price_per_hour: '0.108'
+    price_per_hour: 0.108
     price_per_month: 77.76
     variable_fees: true
     cpu_rating: 1

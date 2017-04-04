@@ -42,11 +42,11 @@ function parseAWS() {
             },
             ui_options: {
               id: id,
-              display_name: `${awsi.pretty_name} (${zone})`,
+              display_name: `${awsi.instance_type} (${zone})`,
               memory: awsi.memory,
               storage: 40,
               zone: zone,
-              price_per_hour: awsi.pricing[zone].linux.ondemand,
+              price_per_hour: parseFloat(awsi.pricing[zone].linux.ondemand),
               price_per_month: (awsi.pricing[zone].linux.ondemand) * 720,
               variable_fees: true,
               cpu_rating: Math.floor(Math.random() * 5) + 1,

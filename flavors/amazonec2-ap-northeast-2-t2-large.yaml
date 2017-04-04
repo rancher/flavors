@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-northeast-2-t2-large
-    display_name: 'T2 Large (ap-northeast-2)'
+    display_name: 't2.large (ap-northeast-2)'
     memory: 8
     storage: 40
     zone: ap-northeast-2
-    price_per_hour: '0.128'
+    price_per_hour: 0.128
     price_per_month: 92.16
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 3
+    cpu_rating: 4
+    disk_rating: 1
     transfer: 0
     realm: 'Asia Pacific - Seoul (ap-northeast-2)'
     api_key_support: byokey

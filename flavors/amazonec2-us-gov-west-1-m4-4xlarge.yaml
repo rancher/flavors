@@ -5,14 +5,14 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-gov-west-1-m4-4xlarge
-    display_name: 'M4 Quadruple Extra Large (us-gov-west-1)'
+    display_name: 'm4.4xlarge (us-gov-west-1)'
     memory: 64
     storage: 40
     zone: us-gov-west-1
-    price_per_hour: '1.089'
+    price_per_hour: 1.089
     price_per_month: 784.0799999999999
     variable_fees: true
-    cpu_rating: 3
+    cpu_rating: 4
     disk_rating: 4
     transfer: 2000
     realm: 'US GOV''t (us-gov-west-1)'

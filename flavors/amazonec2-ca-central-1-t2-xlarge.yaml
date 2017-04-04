@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ca-central-1-t2-xlarge
-    display_name: 'T2 Extra Large (ca-central-1)'
+    display_name: 't2.xlarge (ca-central-1)'
     memory: 16
     storage: 40
     zone: ca-central-1
-    price_per_hour: '0.206'
+    price_per_hour: 0.206
     price_per_month: 148.32
     variable_fees: true
-    cpu_rating: 2
-    disk_rating: 3
+    cpu_rating: 1
+    disk_rating: 2
     transfer: 0
     realm: 'Canada Central (ca-central-1)'
     api_key_support: byokey

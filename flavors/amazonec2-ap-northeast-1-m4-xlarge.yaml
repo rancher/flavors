@@ -5,14 +5,14 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-northeast-1-m4-xlarge
-    display_name: 'M4 Extra Large (ap-northeast-1)'
+    display_name: 'm4.xlarge (ap-northeast-1)'
     memory: 16
     storage: 40
     zone: ap-northeast-1
-    price_per_hour: '0.278'
+    price_per_hour: 0.278
     price_per_month: 200.16000000000003
     variable_fees: true
-    cpu_rating: 2
+    cpu_rating: 5
     disk_rating: 5
     transfer: 750
     realm: 'Asia Pacific - Tokyo (ap-northeast-1)'

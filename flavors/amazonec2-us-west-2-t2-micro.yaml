@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-west-2-t2-micro
-    display_name: 'T2 Micro (us-west-2)'
+    display_name: 't2.micro (us-west-2)'
     memory: 1
     storage: 40
     zone: us-west-2
-    price_per_hour: '0.012'
+    price_per_hour: 0.012
     price_per_month: 8.64
     variable_fees: true
     cpu_rating: 3
-    disk_rating: 3
+    disk_rating: 4
     transfer: 0
     realm: 'US West - Oregon (us-west-1)'
     api_key_support: byokey

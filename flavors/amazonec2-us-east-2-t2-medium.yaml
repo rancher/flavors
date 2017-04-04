@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-east-2-t2-medium
-    display_name: 'T2 Medium (us-east-2)'
+    display_name: 't2.medium (us-east-2)'
     memory: 4
     storage: 40
     zone: us-east-2
-    price_per_hour: '0.047'
+    price_per_hour: 0.047
     price_per_month: 33.84
     variable_fees: true
-    cpu_rating: 1
-    disk_rating: 5
+    cpu_rating: 5
+    disk_rating: 4
     transfer: 0
     realm: 'US East - Ohio (us-east-2)'
     api_key_support: byokey

@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-us-west-1-m4-4xlarge
-    display_name: 'M4 Quadruple Extra Large (us-west-1)'
+    display_name: 'm4.4xlarge (us-west-1)'
     memory: 64
     storage: 40
     zone: us-west-1
-    price_per_hour: '1.005'
+    price_per_hour: 1.005
     price_per_month: 723.5999999999999
     variable_fees: true
     cpu_rating: 4
-    disk_rating: 5
+    disk_rating: 4
     transfer: 2000
     realm: 'US West - N. California (us-west-1)'
     api_key_support: byokey

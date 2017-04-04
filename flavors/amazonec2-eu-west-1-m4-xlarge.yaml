@@ -5,15 +5,15 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-eu-west-1-m4-xlarge
-    display_name: 'M4 Extra Large (eu-west-1)'
+    display_name: 'm4.xlarge (eu-west-1)'
     memory: 16
     storage: 40
     zone: eu-west-1
-    price_per_hour: '0.238'
+    price_per_hour: 0.238
     price_per_month: 171.35999999999999
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 4
+    cpu_rating: 5
+    disk_rating: 3
     transfer: 750
     realm: 'EU - Ireland (eu-west-1)'
     api_key_support: byokey

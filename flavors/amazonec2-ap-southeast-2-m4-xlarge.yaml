@@ -5,11 +5,11 @@ driver_options:
     amazonec2-zone: a
 ui_options:
     id: amazonec2-ap-southeast-2-m4-xlarge
-    display_name: 'M4 Extra Large (ap-southeast-2)'
+    display_name: 'm4.xlarge (ap-southeast-2)'
     memory: 16
     storage: 40
     zone: ap-southeast-2
-    price_per_hour: '0.269'
+    price_per_hour: 0.269
     price_per_month: 193.68
     variable_fees: true
     cpu_rating: 5
