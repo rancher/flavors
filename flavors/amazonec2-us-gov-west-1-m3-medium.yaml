@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: m3.medium
+    amazonec2-region: us-gov-west-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-us-gov-west-1-m3-medium
+    display_name: 'M3 General Purpose Medium (us-gov-west-1)'
+    memory: 3.75
+    storage: 40
+    zone: us-gov-west-1
+    price_per_hour: '0.084'
+    price_per_month: 60.480000000000004
+    variable_fees: true
+    cpu_rating: 1
+    disk_rating: 4
+    transfer: 0
+    realm: null
+    api_key_support: byokey

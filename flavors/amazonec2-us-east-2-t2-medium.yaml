@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.medium
+    amazonec2-region: us-east-2
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-us-east-2-t2-medium
+    display_name: 'T2 Medium (us-east-2)'
+    memory: 4
+    storage: 40
+    zone: us-east-2
+    price_per_hour: '0.047'
+    price_per_month: 33.84
+    variable_fees: true
+    cpu_rating: 1
+    disk_rating: 2
+    transfer: 0
+    realm: null
+    api_key_support: byokey

@@ -43,9 +43,10 @@ const REALMS = {
   "blr1": "Asia",
 }
 
+require('dotenv').config();
 const YAML = require('yamljs');
 const digitalocean = require('digitalocean');
-const client = digitalocean.client('');
+const client = digitalocean.client(process.env.DO_KEY);
 const fs = require('fs');
 
 function getRegions() {

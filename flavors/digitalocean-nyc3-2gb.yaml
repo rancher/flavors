@@ -1,0 +1,20 @@
+provider: digitalocean
+driver_options:
+    digitalocean-image: ubuntu-16-04-x64
+    digitalocean-ipv6: false
+    digitalocean-private-networking: false
+    digitalocean-backups: false
+ui_options:
+    id: digitalocean-nyc3-2gb
+    display_name: 'Digital Ocean Small (nyc3)'
+    memory: 2048
+    storage: 40
+    zone: nyc3
+    price_per_hour: 0.02976
+    price_per_month: 20
+    variable_fees: false
+    cpu_rating: 3
+    disk_rating: 2
+    transfer: 3
+    realm: 'US East'
+    api_key_support: managed

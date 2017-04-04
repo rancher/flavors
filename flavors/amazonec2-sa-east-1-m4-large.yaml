@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: m4.large
+    amazonec2-region: sa-east-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-sa-east-1-m4-large
+    display_name: 'M4 Large (sa-east-1)'
+    memory: 8
+    storage: 40
+    zone: sa-east-1
+    price_per_hour: '0.171'
+    price_per_month: 123.12
+    variable_fees: true
+    cpu_rating: 1
+    disk_rating: 5
+    transfer: 450
+    realm: null
+    api_key_support: byokey

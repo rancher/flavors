@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.large
+    amazonec2-region: us-gov-west-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-us-gov-west-1-t2-large
+    display_name: 'T2 Large (us-gov-west-1)'
+    memory: 8
+    storage: 40
+    zone: us-gov-west-1
+    price_per_hour: '0.112'
+    price_per_month: 80.64
+    variable_fees: true
+    cpu_rating: 3
+    disk_rating: 1
+    transfer: 0
+    realm: null
+    api_key_support: byokey

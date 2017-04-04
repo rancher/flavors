@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: m4.xlarge
+    amazonec2-region: ap-southeast-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-ap-southeast-1-m4-xlarge
+    display_name: 'M4 Extra Large (ap-southeast-1)'
+    memory: 16
+    storage: 40
+    zone: ap-southeast-1
+    price_per_hour: '0.266'
+    price_per_month: 191.52
+    variable_fees: true
+    cpu_rating: 5
+    disk_rating: 5
+    transfer: 750
+    realm: null
+    api_key_support: byokey

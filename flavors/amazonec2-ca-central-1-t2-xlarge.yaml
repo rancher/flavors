@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.xlarge
+    amazonec2-region: ca-central-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-ca-central-1-t2-xlarge
+    display_name: 'T2 Extra Large (ca-central-1)'
+    memory: 16
+    storage: 40
+    zone: ca-central-1
+    price_per_hour: '0.206'
+    price_per_month: 148.32
+    variable_fees: true
+    cpu_rating: 4
+    disk_rating: 1
+    transfer: 0
+    realm: null
+    api_key_support: byokey

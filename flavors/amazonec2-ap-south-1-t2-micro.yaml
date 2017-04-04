@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.micro
+    amazonec2-region: ap-south-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-ap-south-1-t2-micro
+    display_name: 'T2 Micro (ap-south-1)'
+    memory: 1
+    storage: 40
+    zone: ap-south-1
+    price_per_hour: '0.015'
+    price_per_month: 10.799999999999999
+    variable_fees: true
+    cpu_rating: 1
+    disk_rating: 5
+    transfer: 0
+    realm: null
+    api_key_support: byokey

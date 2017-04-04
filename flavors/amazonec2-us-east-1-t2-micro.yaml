@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.micro
+    amazonec2-region: us-east-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-us-east-1-t2-micro
+    display_name: 'T2 Micro (us-east-1)'
+    memory: 1
+    storage: 40
+    zone: us-east-1
+    price_per_hour: '0.012'
+    price_per_month: 8.64
+    variable_fees: true
+    cpu_rating: 5
+    disk_rating: 5
+    transfer: 0
+    realm: null
+    api_key_support: byokey

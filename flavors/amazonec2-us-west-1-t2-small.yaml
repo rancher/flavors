@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.small
+    amazonec2-region: us-west-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-us-west-1-t2-small
+    display_name: 'T2 Small (us-west-1)'
+    memory: 2
+    storage: 40
+    zone: us-west-1
+    price_per_hour: '0.031'
+    price_per_month: 22.32
+    variable_fees: true
+    cpu_rating: 4
+    disk_rating: 2
+    transfer: 0
+    realm: null
+    api_key_support: byokey

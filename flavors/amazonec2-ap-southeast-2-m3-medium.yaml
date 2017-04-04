@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: m3.medium
+    amazonec2-region: ap-southeast-2
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-ap-southeast-2-m3-medium
+    display_name: 'M3 General Purpose Medium (ap-southeast-2)'
+    memory: 3.75
+    storage: 40
+    zone: ap-southeast-2
+    price_per_hour: '0.093'
+    price_per_month: 66.96
+    variable_fees: true
+    cpu_rating: 2
+    disk_rating: 5
+    transfer: 0
+    realm: null
+    api_key_support: byokey

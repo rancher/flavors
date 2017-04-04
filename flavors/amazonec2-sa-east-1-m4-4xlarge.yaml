@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: m4.4xlarge
+    amazonec2-region: sa-east-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-sa-east-1-m4-4xlarge
+    display_name: 'M4 Quadruple Extra Large (sa-east-1)'
+    memory: 64
+    storage: 40
+    zone: sa-east-1
+    price_per_hour: '1.37'
+    price_per_month: 986.4000000000001
+    variable_fees: true
+    cpu_rating: 5
+    disk_rating: 2
+    transfer: 2000
+    realm: null
+    api_key_support: byokey

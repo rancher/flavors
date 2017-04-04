@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: m4.2xlarge
+    amazonec2-region: us-west-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-us-west-1-m4-2xlarge
+    display_name: 'M4 Double Extra Large (us-west-1)'
+    memory: 32
+    storage: 40
+    zone: us-west-1
+    price_per_hour: '0.503'
+    price_per_month: 362.16
+    variable_fees: true
+    cpu_rating: 1
+    disk_rating: 2
+    transfer: 1000
+    realm: null
+    api_key_support: byokey

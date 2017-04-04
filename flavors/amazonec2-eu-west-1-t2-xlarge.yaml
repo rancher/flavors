@@ -1,0 +1,19 @@
+provider: amazonec2
+driver_options:
+    amazonec2-instance-type: t2.xlarge
+    amazonec2-region: eu-west-1
+    amazonec2-zone: a
+ui_options:
+    id: amazonec2-eu-west-1-t2-xlarge
+    display_name: 'T2 Extra Large (eu-west-1)'
+    memory: 16
+    storage: 40
+    zone: eu-west-1
+    price_per_hour: '0.202'
+    price_per_month: 145.44
+    variable_fees: true
+    cpu_rating: 4
+    disk_rating: 4
+    transfer: 0
+    realm: null
+    api_key_support: byokey
