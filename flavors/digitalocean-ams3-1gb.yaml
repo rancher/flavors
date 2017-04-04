@@ -16,5 +16,5 @@ ui_options:
     cpu_rating: 3
     disk_rating: 2
     transfer: 2
-    realm: 'EU East'
+    realm: 'Europe East'
     api_key_support: managed

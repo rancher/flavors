@@ -14,7 +14,7 @@ ui_options:
     price_per_month: 20
     variable_fees: false
     cpu_rating: 5
-    disk_rating: 3
+    disk_rating: 5
     transfer: 3
-    realm: 'EU West'
+    realm: 'Europe West'
     api_key_support: managed

@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: 0.512
     price_per_month: 368.64
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 5
+    cpu_rating: 5
+    disk_rating: 1
     transfer: 0
-    realm: 'Asia Pacific - Tokyo (ap-northeast-1)'
+    realm: Asia
     api_key_support: byokey

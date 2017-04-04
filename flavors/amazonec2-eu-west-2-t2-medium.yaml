@@ -15,5 +15,5 @@ ui_options:
     cpu_rating: 3
     disk_rating: 5
     transfer: 0
-    realm: 'EU - London (eu-west-2)'
+    realm: 'EU West'
     api_key_support: byokey

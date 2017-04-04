@@ -15,5 +15,5 @@ ui_options:
     cpu_rating: 5
     disk_rating: 1
     transfer: 750
-    realm: 'Asia Pacific - Seoul (ap-northeast-2)'
+    realm: Asia
     api_key_support: byokey

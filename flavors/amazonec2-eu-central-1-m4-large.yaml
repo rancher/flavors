@@ -15,5 +15,5 @@ ui_options:
     cpu_rating: 1
     disk_rating: 2
     transfer: 450
-    realm: 'EU - Frankfurt (eu-central-1)'
+    realm: 'EU Central'
     api_key_support: byokey

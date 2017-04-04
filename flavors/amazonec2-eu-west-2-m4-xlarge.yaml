@@ -13,7 +13,7 @@ ui_options:
     price_per_month: 180
     variable_fees: true
     cpu_rating: 4
-    disk_rating: 3
+    disk_rating: 5
     transfer: 750
-    realm: 'EU - London (eu-west-2)'
+    realm: 'EU West'
     api_key_support: byokey

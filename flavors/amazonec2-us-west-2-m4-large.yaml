@@ -15,5 +15,5 @@ ui_options:
     cpu_rating: 1
     disk_rating: 5
     transfer: 450
-    realm: 'US West - Oregon (us-west-1)'
+    realm: 'US West'
     api_key_support: byokey

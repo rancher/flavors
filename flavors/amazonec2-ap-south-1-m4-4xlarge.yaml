@@ -13,7 +13,7 @@ ui_options:
     price_per_month: 758.16
     variable_fees: true
     cpu_rating: 3
-    disk_rating: 5
+    disk_rating: 3
     transfer: 2000
-    realm: 'Asia Pacific - Mumbai (ap-south-1)'
+    realm: Asia
     api_key_support: byokey

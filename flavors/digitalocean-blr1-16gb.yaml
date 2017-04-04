@@ -13,8 +13,8 @@ ui_options:
     price_per_hour: 0.2381
     price_per_month: 160
     variable_fees: false
-    cpu_rating: 3
-    disk_rating: 2
+    cpu_rating: 5
+    disk_rating: 5
     transfer: 6
     realm: Asia
     api_key_support: managed

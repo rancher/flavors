@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: 0.862
     price_per_month: 620.64
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 1
+    cpu_rating: 1
+    disk_rating: 5
     transfer: 2000
-    realm: 'US East - N. Virginia (us-east-1)'
+    realm: 'US East'
     api_key_support: byokey

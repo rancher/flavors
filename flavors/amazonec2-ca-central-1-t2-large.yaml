@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: 0.103
     price_per_month: 74.16
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 2
+    cpu_rating: 1
+    disk_rating: 1
     transfer: 0
-    realm: 'Canada Central (ca-central-1)'
+    realm: Canada
     api_key_support: byokey

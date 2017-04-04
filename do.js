@@ -29,17 +29,17 @@ const PDN = {
 
 const REALMS = {
   "nyc1": "US East",
-  "ams1": "EU East",
+  "ams1": "Europe West",
   "sfo1": "US West",
   "sfo2": "US West",
   "nyc2": "US East",
-  "ams2": "EU East",
+  "ams2": "Europe West",
   "sgp1": "Asia",
-  "lon1": "EU West",
+  "lon1": "Europe West",
   "nyc3": "US East",
-  "ams3": "EU East",
-  "fra1": "EU West",
-  "tor1": "CAN East",
+  "ams3": "Europe East",
+  "fra1": "Europe West",
+  "tor1": "Canada",
   "blr1": "Asia",
 }
 

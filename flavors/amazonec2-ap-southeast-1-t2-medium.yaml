@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: 0.06
     price_per_month: 43.199999999999996
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 2
+    cpu_rating: 4
+    disk_rating: 5
     transfer: 0
-    realm: 'Asia Pacific - Singapore (ap-southeast-1)'
+    realm: Asia
     api_key_support: byokey

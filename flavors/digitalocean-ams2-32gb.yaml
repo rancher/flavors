@@ -13,8 +13,8 @@ ui_options:
     price_per_hour: 0.47619
     price_per_month: 320
     variable_fees: false
-    cpu_rating: 5
-    disk_rating: 2
+    cpu_rating: 2
+    disk_rating: 1
     transfer: 7
-    realm: 'EU East'
+    realm: 'Europe West'
     api_key_support: managed

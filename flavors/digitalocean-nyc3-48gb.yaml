@@ -13,7 +13,7 @@ ui_options:
     price_per_hour: 0.71429
     price_per_month: 480
     variable_fees: false
-    cpu_rating: 2
+    cpu_rating: 3
     disk_rating: 1
     transfer: 8
     realm: 'US East'

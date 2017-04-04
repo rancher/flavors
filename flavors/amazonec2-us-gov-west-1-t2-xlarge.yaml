@@ -12,8 +12,8 @@ ui_options:
     price_per_hour: 0.224
     price_per_month: 161.28
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 5
+    cpu_rating: 4
+    disk_rating: 2
     transfer: 0
-    realm: 'US GOV''t (us-gov-west-1)'
+    realm: null
     api_key_support: byokey

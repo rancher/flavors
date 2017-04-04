@@ -13,8 +13,8 @@ ui_options:
     price_per_hour: 0.02976
     price_per_month: 20
     variable_fees: false
-    cpu_rating: 1
+    cpu_rating: 3
     disk_rating: 3
     transfer: 3
-    realm: 'CAN East'
+    realm: Canada
     api_key_support: managed

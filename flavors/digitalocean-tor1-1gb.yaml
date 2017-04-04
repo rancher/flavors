@@ -14,7 +14,7 @@ ui_options:
     price_per_month: 10
     variable_fees: false
     cpu_rating: 5
-    disk_rating: 3
+    disk_rating: 1
     transfer: 2
-    realm: 'CAN East'
+    realm: Canada
     api_key_support: managed

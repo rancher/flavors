@@ -13,7 +13,7 @@ ui_options:
     price_per_month: 351.36
     variable_fees: true
     cpu_rating: 3
-    disk_rating: 4
+    disk_rating: 5
     transfer: 0
-    realm: 'US West - N. California (us-west-1)'
+    realm: 'US West'
     api_key_support: byokey
