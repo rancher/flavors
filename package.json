@@ -1,7 +1,6 @@
 {
   "name": "flavors-scripts",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "digitalocean": "^0.9.1",
