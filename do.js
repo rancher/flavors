@@ -65,6 +65,8 @@ function getRegions() {
           filelist.push({
             provider: "digitalocean",
             driver_options: {
+              "digitalocean-region": reg,
+              "digitalocean-size": size.slug,
               "digitalocean-image": "ubuntu-16-04-x64",
               "digitalocean-ipv6": false,
               "digitalocean-private-networking": false,
