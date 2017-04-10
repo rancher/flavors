@@ -12,8 +12,6 @@ ui_options:
     price_per_hour: 0.02
     price_per_month: 14.4
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 2
     transfer: 0
     realm: 'South America'
     api_key_support: byokey

@@ -12,8 +12,6 @@ ui_options:
     price_per_hour: 0.513
     price_per_month: 369.36
     variable_fees: true
-    cpu_rating: 1
-    disk_rating: 4
     transfer: 1000
     realm: 'EU Central'
     api_key_support: byokey

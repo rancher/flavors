@@ -1,5 +1,7 @@
 provider: digitalocean
 driver_options:
+    digitalocean-region: ams3
+    digitalocean-size: 2gb
     digitalocean-image: ubuntu-16-04-x64
     digitalocean-ipv6: false
     digitalocean-private-networking: false
@@ -13,8 +15,6 @@ ui_options:
     price_per_hour: 0.02976
     price_per_month: 20
     variable_fees: false
-    cpu_rating: 2
-    disk_rating: 3
     transfer: 3
     realm: 'Europe East'
     api_key_support: managed

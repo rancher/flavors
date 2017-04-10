@@ -12,8 +12,6 @@ ui_options:
     price_per_hour: 1.089
     price_per_month: 784.0799999999999
     variable_fees: true
-    cpu_rating: 5
-    disk_rating: 2
     transfer: 2000
     realm: null
     api_key_support: byokey

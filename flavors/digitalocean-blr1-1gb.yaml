@@ -1,5 +1,7 @@
 provider: digitalocean
 driver_options:
+    digitalocean-region: blr1
+    digitalocean-size: 1gb
     digitalocean-image: ubuntu-16-04-x64
     digitalocean-ipv6: false
     digitalocean-private-networking: false
@@ -13,8 +15,6 @@ ui_options:
     price_per_hour: 0.01488
     price_per_month: 10
     variable_fees: false
-    cpu_rating: 4
-    disk_rating: 4
     transfer: 2
     realm: Asia
     api_key_support: managed

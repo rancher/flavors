@@ -12,8 +12,6 @@ ui_options:
     price_per_hour: 0.948
     price_per_month: 682.56
     variable_fees: true
-    cpu_rating: 3
-    disk_rating: 2
     transfer: 2000
     realm: Canada
     api_key_support: byokey
