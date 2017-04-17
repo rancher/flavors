@@ -20,7 +20,7 @@ const REALMS = {
   "us-west-2": "US West",
 }
 
-function parseAWS() {
+module.exports.parseAWS = function parseAWS(cb) {
   var filelist = [];
   var contents = fs.readFileSync("aws_instances.json");
   var jsonContent = JSON.parse(contents);
@@ -61,12 +61,12 @@ function parseAWS() {
         fs.writeFile(`flavors/${fileobj.ui_options.id}.yaml`, YAML.stringify(fileobj, 4), function (err) {
           if (err) {
             console.log(err);
-            process.exit(1);
+            cb(err);
           } else {
-            console.log("The file was saved!");
+            console.log("The file was AWS saved!");
             if (idx === filelist.length - 1) {
-              console.log('Finished writing files!');
-              process.exit(0);
+              console.log('Finished writing AWS files!');
+              cb(null, filelist);
             }
           }
         });
@@ -74,4 +74,3 @@ function parseAWS() {
     }
   });
 }
-parseAWS();

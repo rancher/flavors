@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "node",
+            "request": "test",
+            "name": "Build All List",
+            "program": "${workspaceRoot}/index.js"
+        },
+        {
+            "type": "node",
             "request": "launch",
             "name": "Build DO List",
             "program": "${workspaceRoot}/do.js"

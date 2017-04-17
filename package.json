@@ -5,14 +5,12 @@
   "dependencies": {
     "digitalocean": "^0.9.1",
     "dotenv": "^4.0.0",
+    "fs-extra": "^2.1.2",
     "yamljs": "^0.2.9"
   },
   "scripts": {
     "buildDo": "node do.js",
     "buildAws": "node aws.js",
-    "build": "run-p buildDo buildAws"
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.0.2"
+    "build": "node index.js"
   }
 }
