@@ -46,8 +46,6 @@ require('dotenv').config();
 const YAML = require('yamljs');
 const digitalocean = require('digitalocean');
 const client = digitalocean.client(process.env.DIGITALOCEAN_ACCESS_TOKEN);
-const fs = require('fs');
-const client = digitalocean.client(process.env.DO_KEY);
 const fs = require('fs-extra');
 
 module.exports.getRegions = function getRegions(cb) {

@@ -15,6 +15,7 @@ ui_options:
     price_per_hour: 0.2381
     price_per_month: 160
     variable_fees: false
+    cpu_count: 8
     transfer: 6
     realm: Asia
     api_key_support: managed

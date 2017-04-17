@@ -15,6 +15,7 @@ ui_options:
     price_per_hour: 0.02976
     price_per_month: 20
     variable_fees: false
+    cpu_count: 2
     transfer: 3
     realm: 'Europe West'
     api_key_support: managed
