@@ -14,5 +14,5 @@ ui_options:
     price_per_month: 341.28
     variable_fees: true
     transfer: 1000
-    realm: Canada
+    realm: canada
     api_key_support: byokey

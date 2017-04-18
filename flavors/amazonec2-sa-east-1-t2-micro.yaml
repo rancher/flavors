@@ -14,5 +14,5 @@ ui_options:
     price_per_month: 14.4
     variable_fees: true
     transfer: 0
-    realm: 'South America'
+    realm: south-america
     api_key_support: byokey

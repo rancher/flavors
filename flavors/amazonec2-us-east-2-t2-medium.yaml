@@ -14,5 +14,5 @@ ui_options:
     price_per_month: 33.84
     variable_fees: true
     transfer: 0
-    realm: 'US East'
+    realm: us-east
     api_key_support: byokey

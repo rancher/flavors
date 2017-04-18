@@ -14,5 +14,5 @@ ui_options:
     price_per_month: 387.36
     variable_fees: true
     transfer: 1000
-    realm: Asia
+    realm: asia
     api_key_support: byokey

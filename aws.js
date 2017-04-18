@@ -4,20 +4,20 @@ const fs = require('fs');
 const SAFEINSTANCES = ['t2.micro', 't2.small', 't2.medium', 't2.large', 't2.xlarge', 't2.2xlarge', 'm3.medium', 'm4.large', 'm4.xlarge', 'm4.2xlarge', 'm4.4xlarge'];
 
 const REALMS = {
-  'ap-northeast-1': 'Asia',
-  'ap-northeast-2': 'Asia',
-  'ap-south-1': 'Asia',
-  'ap-southeast-1': 'Asia',
-  'ap-southeast-2': 'Asia',
-  'ca-central-1': 'Canada',
-  'eu-central-1': 'EU Central',
-  'eu-west-1': 'EU West',
-  'eu-west-2': 'EU West',
-  'sa-east-1': 'South America',
-  'us-east-1': 'US East',
-  'us-east-2': 'US East',
-  'us-west-1': 'US West',
-  'us-west-2': 'US West',
+  'ap-northeast-1': 'asia',
+  'ap-northeast-2': 'asia',
+  'ap-south-1': 'asia',
+  'ap-southeast-1': 'asia',
+  'ap-southeast-2': 'asia',
+  'ca-central-1': 'canada',
+  'eu-central-1': 'eu-central',
+  'eu-west-1': 'eu-west',
+  'eu-west-2': 'eu-west',
+  'sa-east-1': 'south-america',
+  'us-east-1': 'us-east',
+  'us-east-2': 'us-east',
+  'us-west-1': 'us-west',
+  'us-west-2': 'us-west',
 }
 
 module.exports.parseAWS = function parseAWS(cb) {

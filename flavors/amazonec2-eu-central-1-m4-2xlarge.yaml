@@ -14,5 +14,5 @@ ui_options:
     price_per_month: 369.36
     variable_fees: true
     transfer: 1000
-    realm: 'EU Central'
+    realm: eu-central
     api_key_support: byokey
