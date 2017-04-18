@@ -1,4 +1,5 @@
 provider: digitalocean
+pretty_provider: 'Digital Ocean'
 driver_options:
     digitalocean-region: blr1
     digitalocean-size: 4gb
@@ -17,5 +18,5 @@ ui_options:
     variable_fees: false
     cpu_count: 2
     transfer: 4
-    realm: Asia
+    realm: asia
     api_key_support: managed

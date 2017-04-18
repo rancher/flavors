@@ -1,4 +1,5 @@
 provider: digitalocean
+pretty_provider: 'Digital Ocean'
 driver_options:
     digitalocean-region: sfo1
     digitalocean-size: 64gb
@@ -17,5 +18,5 @@ ui_options:
     variable_fees: false
     cpu_count: 20
     transfer: 9
-    realm: 'US West'
+    realm: us-west
     api_key_support: managed

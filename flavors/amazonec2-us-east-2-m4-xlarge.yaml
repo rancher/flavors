@@ -1,4 +1,5 @@
 provider: amazonec2
+pretty_provider: Amazon
 driver_options:
     amazonec2-instance-type: m4.xlarge
     amazonec2-region: us-east-2

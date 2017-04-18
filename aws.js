@@ -34,6 +34,7 @@ module.exports.parseAWS = function parseAWS(cb) {
           console.log(zone);
           filelist.push({
             provider: 'amazonec2',
+            pretty_provider: 'Amazon',
             driver_options: {
               'amazonec2-instance-type': awsi.instance_type,
               'amazonec2-region': zone,

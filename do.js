@@ -27,19 +27,19 @@ const PDN = {
 };
 
 const REALMS = {
-  'ams1': 'Europe West',
-  'ams2': 'Europe West',
-  'ams3': 'Europe East',
-  'blr1': 'Asia',
-  'fra1': 'Europe West',
-  'lon1': 'Europe West',
-  'nyc1': 'US East',
-  'nyc2': 'US East',
-  'nyc3': 'US East',
-  'sfo1': 'US West',
-  'sfo2': 'US West',
-  'sgp1': 'Asia',
-  'tor1': 'Canada',
+  'ams1': 'eu-west',
+  'ams2': 'eu-west',
+  'ams3': 'eu-east',
+  'blr1': 'asia',
+  'fra1': 'eu-west',
+  'lon1': 'eu-west',
+  'nyc1': 'us-west',
+  'nyc2': 'us-east',
+  'nyc3': 'us-east',
+  'sfo1': 'us-west',
+  'sfo2': 'us-west',
+  'sgp1': 'asia',
+  'tor1': 'canada',
 }
 
 require('dotenv').config();
@@ -64,6 +64,7 @@ client.sizes.list().then((sizes) => {
           var id = `digitalocean-${reg}-${size.slug}`;
           filelist.push({
             provider: 'digitalocean',
+            pretty_provider: 'Digital Ocean',
             driver_options: {
               'digitalocean-region': reg,
               'digitalocean-size': size.slug,

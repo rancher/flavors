@@ -2,6 +2,7 @@
 const DO = require('./do.js');
 const AWS = require('./aws.js');
 const fs = require('fs-extra');
+const util = require('util');
 
 var doList = null;
 var awsList = null;
@@ -84,11 +85,13 @@ DO.getRegions((err, results) => {
       process.exit(1);
     }
     awsList = res;
-    merger = doList.concat(awsList);
+    merger = JSON.stringify(doList.concat(awsList));
     // debugger;
     var neuFile = rancherMachineDefaults;
     neuFile.realms = merger;
-    fs.writeFile('./plans.js', JSON.stringify(neuFile), (err) => {
+    var modString = `var CLOUD_PLANS = ${util.format(neuFile)}; \r\n export default CLOUD_PLANS;`
+    // debugger;
+    fs.writeFile('./plans.js', util.format(modString), (err) => {
       if (err) {
         console.log(err);
         process.exit(1);
