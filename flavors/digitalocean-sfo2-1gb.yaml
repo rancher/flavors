@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-sfo2-1gb
     display_name: 'Digital Ocean Mini (sfo2)'
-    memory: 1024
+    memory: 1
     storage: 30
     zone: sfo2
     price_per_hour: 0.01488

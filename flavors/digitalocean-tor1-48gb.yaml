@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-tor1-48gb
     display_name: 'Digital Ocean Gigantic (tor1)'
-    memory: 49152
+    memory: 48
     storage: 480
     zone: tor1
     price_per_hour: 0.71429

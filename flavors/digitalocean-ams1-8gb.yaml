@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-ams1-8gb
     display_name: 'Digital Ocean Large (ams1)'
-    memory: 8192
+    memory: 8
     storage: 80
     zone: ams1
     price_per_hour: 0.11905

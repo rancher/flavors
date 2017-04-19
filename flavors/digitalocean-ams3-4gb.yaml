@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-ams3-4gb
     display_name: 'Digital Ocean Medium (ams3)'
-    memory: 4096
+    memory: 4
     storage: 60
     zone: ams3
     price_per_hour: 0.05952

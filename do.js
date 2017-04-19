@@ -76,7 +76,7 @@ client.sizes.list().then((sizes) => {
             ui_options: {
               id: id,
               display_name: `Digital Ocean ${PDN[size.slug].name} (${reg})`,
-              memory: size.memory,
+              memory: (size.memory/1024),
               storage: size.disk,
               zone: reg,
               price_per_hour: size.price_hourly,

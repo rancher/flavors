@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-sgp1-1gb
     display_name: 'Digital Ocean Mini (sgp1)'
-    memory: 1024
+    memory: 1
     storage: 30
     zone: sgp1
     price_per_hour: 0.01488

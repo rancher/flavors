@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-ams3-16gb
     display_name: 'Digital Ocean Extra Large (ams3)'
-    memory: 16384
+    memory: 16
     storage: 160
     zone: ams3
     price_per_hour: 0.2381

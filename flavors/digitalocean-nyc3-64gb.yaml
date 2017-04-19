@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-nyc3-64gb
     display_name: 'Digital Ocean Colossal (nyc3)'
-    memory: 65536
+    memory: 64
     storage: 640
     zone: nyc3
     price_per_hour: 0.95238

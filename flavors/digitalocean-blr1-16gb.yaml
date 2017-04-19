@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-blr1-16gb
     display_name: 'Digital Ocean Extra Large (blr1)'
-    memory: 16384
+    memory: 16
     storage: 160
     zone: blr1
     price_per_hour: 0.2381

@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-nyc1-8gb
     display_name: 'Digital Ocean Large (nyc1)'
-    memory: 8192
+    memory: 8
     storage: 80
     zone: nyc1
     price_per_hour: 0.11905

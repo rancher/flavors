@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-ams2-64gb
     display_name: 'Digital Ocean Colossal (ams2)'
-    memory: 65536
+    memory: 64
     storage: 640
     zone: ams2
     price_per_hour: 0.95238

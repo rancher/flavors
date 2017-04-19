@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-ams2-48gb
     display_name: 'Digital Ocean Gigantic (ams2)'
-    memory: 49152
+    memory: 48
     storage: 480
     zone: ams2
     price_per_hour: 0.71429

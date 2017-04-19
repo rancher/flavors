@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-nyc2-2gb
     display_name: 'Digital Ocean Small (nyc2)'
-    memory: 2048
+    memory: 2
     storage: 40
     zone: nyc2
     price_per_hour: 0.02976

@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-nyc2-32gb
     display_name: 'Digital Ocean Mega (nyc2)'
-    memory: 32768
+    memory: 32
     storage: 320
     zone: nyc2
     price_per_hour: 0.47619

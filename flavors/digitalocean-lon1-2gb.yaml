@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-lon1-2gb
     display_name: 'Digital Ocean Small (lon1)'
-    memory: 2048
+    memory: 2
     storage: 40
     zone: lon1
     price_per_hour: 0.02976

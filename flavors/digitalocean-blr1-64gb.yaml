@@ -10,7 +10,7 @@ driver_options:
 ui_options:
     id: digitalocean-blr1-64gb
     display_name: 'Digital Ocean Colossal (blr1)'
-    memory: 65536
+    memory: 64
     storage: 640
     zone: blr1
     price_per_hour: 0.95238
